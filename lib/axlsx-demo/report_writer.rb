@@ -50,6 +50,10 @@ module AxlsxDemo
         end
 
       end
+
+      # Download a streaming
+      # s = @p.to_stream()
+      # send_data s.string, :filename => "yourfile.xlsx", :type =>  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     end
 
     def serialize path
